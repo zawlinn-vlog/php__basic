@@ -1,0 +1,13 @@
+{
+  "name": "10-exercise",
+  "version": "1.0.0",
+  "description": "[![php](https://img.shields.io/badge/PHP-000?style=for-the-badge—=ko-fi—=white)](#)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

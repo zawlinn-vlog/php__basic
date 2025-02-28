@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* CSS VARIABLES */
+:root {
+  --primary--color: #4363f9;
+  --primary-light--color: #8944ee;
+  --light--color: #efefef;
+  --dark--color: #222;
+  --gray--color: #898989;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: inherit;
+     -moz-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "inter", sans-serif;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+.df-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+          align-items: center;
+}
+
+.login-form__header h3 {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+}
+.login-form__header p {
+  font-size: 1.5rem;
+  opacity: 0.9;
+}
+
+.login-form__container .form-label {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #888;
+}
+.login-form__container .form-control {
+  font-size: 1.6rem;
+}
+.login-form__container .lbtn {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  letter-spacing: 0.03rem;
+  background-color: #556ee6;
+}
+
+.social-link {
+  font-size: 2.8rem;
+}
+
+.social-google {
+  color: rgb(244, 106, 106);
+}
+
+.forget-pass {
+  text-decoration: none;
+  font-size: 1.4rem;
+  opacity: 0.6;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.forget-pass:hover {
+  opacity: 1;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--light--color);
+}
+
+.login-form {
+  width: 49rem;
+  background-color: #fff;
+  padding-bottom: 8rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.login-form__header {
+  width: 100%;
+  min-height: 10rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(67, 99, 249, 0.15)), to(rgba(67, 99, 249, 0.15)));
+  background-image: -webkit-linear-gradient(left, rgba(67, 99, 249, 0.15), rgba(67, 99, 249, 0.15));
+  background-image: -moz-linear-gradient(left, rgba(67, 99, 249, 0.15), rgba(67, 99, 249, 0.15));
+  background-image: linear-gradient(to right, rgba(67, 99, 249, 0.15), rgba(67, 99, 249, 0.15));
+  padding: 1rem 2rem;
+}
+.login-form__header > *:first-child {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+     -moz-box-flex: 2;
+          flex: 2;
+  padding-top: 1.5rem;
+}
+.login-form__header > *:last-child {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+     -moz-box-flex: 1;
+          flex: 1;
+}
+.login-form__header-img {
+  height: 10rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.login-form__container {
+  padding: 2rem 3rem;
+}
+.login-form__container .form-control {
+  height: 4rem;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Njc3MvYmFzZS9fYmFzZS5zY3NzIiwibWFpbi5jc3MiLCIuLi9zY3NzL2Fic3RyYWN0L19wbGFjZWhvbGRlci5zY3NzIiwiLi4vc2Nzcy9hYnN0cmFjdC9fbWl4aW4uc2NzcyIsIi4uL3Njc3MvYmFzZS9fdHlwb2dyYXBoeS5zY3NzIiwiLi4vc2Nzcy9sYXlvdXQvX2xheW91dC5zY3NzIiwiLi4vc2Nzcy9wYWdlcy9fbG9naW4uc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFJUSw2SEFBQTtBQUVSLGtCQUFBO0FBRUE7RUFFSSx5QkFBQTtFQUFBLCtCQUFBO0VBQUEsdUJBQUE7RUFBQSxtQkFBQTtFQUFBLHNCQUFBO0FDRko7O0FETUE7OztFQUdFLFVBQUE7RUFDQSxTQUFBO0VBQ0EsMkJBQUE7S0FBQSx3QkFBQTtVQUFBLG1CQUFBO0FDSEY7O0FETUE7RUFDRSxnQkFBQTtFQUNBLGdCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxnQ0FBQTtBQ0hGOztBRE1BO0VBQ0UsOEJBQUE7S0FBQSwyQkFBQTtVQUFBLHNCQUFBO0VBQ0EsaUJBQUE7QUNIRjs7QUN4QkE7RUNERSxvQkFBQTtFQUFBLHFCQUFBO0VBQUEsaUJBQUE7RUFBQSxhQUFBO0VBQ0EsOEJBRmlCO0VBRWpCLDZCQUZpQjtFQUVqQiwyQkFGaUI7S0FFakIsMkJBRmlCO0tBRWpCLDBCQUZpQjtVQUVqQixtQkFGaUI7RUFHakIsd0JBSDRCO0VBRzVCLCtCQUg0QjtLQUc1QixxQkFINEI7VUFHNUIsdUJBSDRCO0VBSTVCLHlCQUoyQztFQUkzQywyQkFKMkM7S0FJM0Msc0JBSjJDO1VBSTNDLG1CQUoyQztBRmlDN0M7O0FHaENFO0VBQ0UsZUFBQTtFQUNBLHFCQUFBO0FIbUNKO0FHakNFO0VBQ0UsaUJBQUE7RUFFQSxZQUFBO0FIa0NKOztBRzdCRTtFQUNFLGlCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxXQUFBO0FIZ0NKO0FHN0JFO0VBQ0UsaUJBQUE7QUgrQko7QUc3QkU7RUFDRSxpQkFBQTtFQUNBLDBCQUFBO0VBQ0EsdUJBQUE7RUFDQSx5QkFBQTtBSCtCSjs7QUczQkE7RUFDRSxpQkFBQTtBSDhCRjs7QUczQkE7RUFDRSx5QkFBQTtBSDhCRjs7QUczQkE7RUFDRSxxQkFBQTtFQUNBLGlCQUFBO0VBQ0EsWUFBQTtFQUNBLDRCQUFBO0VBQUEseUJBQUE7RUFBQSxvQkFBQTtBSDhCRjtBRzVCRTtFQUNFLFVBQUE7QUg4Qko7O0FJdkVBO0VBQ0UsV0FBQTtFQUNBLGlCQUFBO0VBQ0EscUNBQUE7QUowRUY7O0FLL0VBO0VBQ0UsWUFBQTtFQUNBLHNCQUFBO0VBQ0Esb0JBQUE7RUFDQSw2RkFBQTtVQUFBLHFGQUFBO0FMa0ZGO0FLL0VFO0VBQ0UsV0FBQTtFQUNBLGlCQUFBO0VBQ0EsMkhBQUE7RUFBQSxpR0FBQTtFQUFBLDhGQUFBO0VBQUEsNkZBQUE7RUFNQSxrQkFBQTtBTDRFSjtBSzFFSTtFQUNFLG1CQUFBO0VBQUEsZUFBQTtLQUFBLGdCQUFBO1VBQUEsT0FBQTtFQUNBLG1CQUFBO0FMNEVOO0FLekVJO0VBQ0UsbUJBQUE7RUFBQSxlQUFBO0tBQUEsZ0JBQUE7VUFBQSxPQUFBO0FMMkVOO0FLeEVJO0VBQ0UsYUFBQTtFQUNBLG9CQUFBO0tBQUEsaUJBQUE7QUwwRU47QUt0RUU7RUFDRSxrQkFBQTtBTHdFSjtBS3RFSTtFQUNFLFlBQUE7QUx3RU4iLCJmaWxlIjoibWFpbi5wcmVmaXguY3NzIn0= */

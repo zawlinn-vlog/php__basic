@@ -1,0 +1,21 @@
+{
+  "name": "11-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:css": "sass ./assets/scss/main.scss ./assets/css/addon.css --no-source-map",
+    "watch:css": "sass ./assets/scss/main.scss ./assets/css/addon.css --no-source-map -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1",
+    "sass": "^1.85.0",
+    "typescript": "^5.7.3"
+  }
+}

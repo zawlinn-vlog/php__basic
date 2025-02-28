@@ -1,0 +1,19 @@
+{
+  "name": "02-exercise",
+  "version": "1.0.0",
+  "description": "[![php](https://img.shields.io/badge/PHP-000?style=for-the-badge—=ko-fi—=white)](#)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:ts": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.85.0",
+    "typescript": "^5.7.3"
+  }
+}
