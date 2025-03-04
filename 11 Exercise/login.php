@@ -6,6 +6,8 @@ include_once ("./assets/modules/head.php");
 
 include_once "./assets/modules/navbar.php";
 
+createPostTable();
+
 
 if(!isset($_SESSION['usertype'])){
 

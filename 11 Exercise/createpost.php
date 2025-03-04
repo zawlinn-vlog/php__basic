@@ -2,7 +2,6 @@
 
 require_once "./assets/system/config.php";
 
-createPostTable();
 
 // echo $_SESSION['username'], $_SESSION['role'];
 
